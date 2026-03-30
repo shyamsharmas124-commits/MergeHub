@@ -1,7 +1,8 @@
 {
-  "name": "react-example",
+  "name": "mergehub",
+  "description": "Platform for discovering high-quality open-source contribution opportunities with low competition",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "tsx --watch --watch-path=src/server --watch-path=server.ts server.ts",

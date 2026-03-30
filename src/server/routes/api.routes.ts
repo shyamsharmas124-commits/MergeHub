@@ -1,3 +1,9 @@
+/**
+ * API Routes Handler
+ * Defines all public API endpoints for issue discovery, analysis, and public scorecard data.
+ * Routes include issue fetching, trending repositories, and user public profiles.
+ */
+
 import { Router } from 'express';
 import { getIssues, analyzeIssue, getTrending, getRepoInfo, getPublicScorecard, getPublicScorecardImage } from '../controllers/api.controller.js';
 

@@ -1,3 +1,9 @@
+/**
+ * Dashboard Page Component
+ * Personal dashboard displaying user PR statistics, contribution momentum, and activity insights.
+ * Shows merge rates, contribution streaks, and actionable next steps for contributors.
+ */
+
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, useInView, useMotionValue, useSpring, useTransform } from 'motion/react';
 import { generatePriorityActions, PriorityAction } from '../utils/priorityActions';

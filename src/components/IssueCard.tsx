@@ -1,3 +1,9 @@
+/**
+ * IssueCard Component
+ * Displays a GitHub issue with opportunity metrics, merge probability, and contributor competition.
+ * Includes animated progress bars and interactive hover effects.
+ */
+
 import React, { useRef } from 'react';
 import { motion, useInView } from 'motion/react';
 

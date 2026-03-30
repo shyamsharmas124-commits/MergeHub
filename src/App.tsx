@@ -3,6 +3,12 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+/**
+ * Main Application Component
+ * Handles routing, theme management, and navigation across MergeHub platform.
+ * Provides authenticated user context and layout structure.
+ */
+
 import { useEffect, useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Discover } from './pages/Discover';

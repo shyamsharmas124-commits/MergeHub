@@ -45,6 +45,14 @@ MergeHub surfaces high-probability contribution opportunities by analyzing:
 - 📊 **Repository Activity Insights** — identifies repositories actively accepting contributions
 - ⚡ **Faster Discovery** — go from zero to the right issue in minutes
 - 🧹 **Clean Interface** — designed for quick scanning and evaluation
+- 🔐 **GitHub OAuth Integration** — secure authentication and personalized recommendations
+- 📈 **Contributor Ranking** — discover top contributors and learn from their strategies
+
+---
+
+## Getting Started
+
+Visit [mergehub.vercel.app](https://mergehub.vercel.app) to start finding your next contribution opportunity.
 
 ---
 
@@ -125,3 +133,5 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">Built by <strong>Shyam</strong> · Feedback and contributions are mostly welcome</p>
+
+# MergeHub

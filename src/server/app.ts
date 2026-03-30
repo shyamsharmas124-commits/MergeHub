@@ -1,3 +1,9 @@
+/**
+ * Express Server Configuration
+ * Sets up middleware, routes, and HTML injection for MergeHub platform.
+ * Handles OAuth authentication, API routing, and public scorecard generation.
+ */
+
 import express from 'express';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';

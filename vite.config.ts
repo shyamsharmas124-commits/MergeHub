@@ -1,3 +1,9 @@
+/**
+ * Vite Configuration
+ * Configures Vite build tool with React, Tailwind CSS, and environment variables.
+ * Enables HMR for development and optimizes production builds.
+ */
+
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';

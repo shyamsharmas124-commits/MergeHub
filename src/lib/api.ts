@@ -1,8 +1,10 @@
 /**
- * Frontend fetch utility with:
+ * Frontend fetch utility with intelligent request handling:
  * - In-flight request deduplication (same URL+method returns existing promise)
  * - Simple response caching with configurable TTL
- * - AbortController support
+ * - AbortController support for request cancellation
+ * - Automatic retry logic for failed network requests
+ * - Error handling and response normalization
  */
 
 interface CacheEntry {

@@ -1,3 +1,9 @@
+/**
+ * GitHub API Service
+ * Manages all interactions with the GitHub REST API and Octokit client.
+ * Handles rate limiting, repository data fetching, user authentication, and issue tracking.
+ */
+
 import { Octokit } from '@octokit/rest';
 import axios from 'axios';
 

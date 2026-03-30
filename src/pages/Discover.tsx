@@ -1,3 +1,9 @@
+/**
+ * Discover Page Component
+ * Main interface for discovering high-opportunity GitHub issues.
+ * Allows users to search repositories, filter issues by opportunity, and analyze contribution potential.
+ */
+
 import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { IssueCard } from '../components/IssueCard';

@@ -1,3 +1,9 @@
+/**
+ * User Database Model
+ * Defines user schema and database operations for MergeHub.
+ * Manages user profiles, authentication state, and watchlist persistence.
+ */
+
 import { supabase } from '../utils/supabase.js';
 
 export interface DbUser {
