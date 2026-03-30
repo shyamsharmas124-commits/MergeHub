@@ -1,18 +1,18 @@
-# AlgoMerge — PR Radar for Open Source Contributors
+# MergeHub — PR Radar for Open Source Contributors
 
 > Find the best open-source issues to contribute to — with the lowest competition.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-algomerge.vercel.app-00ff88?style=flat-square)](https://algomerge.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-mergehub.vercel.app-00ff88?style=flat-square)](https://mergehub.vercel.app)
 ![Status](https://img.shields.io/badge/Status-Active-00ff88?style=flat-square)
 ![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Node.js%20%7C%20GitHub%20API-0d1117?style=flat-square)
 
 ---
 
-## What is AlgoMerge?
+## What is MergeHub?
 
-AlgoMerge is a platform that helps developers find the best open-source issues to contribute to — ones where competition is low and the chance of getting your PR merged is high.
+MergeHub is a platform that helps developers find the best open-source issues to contribute to — ones where competition is low and the chance of getting your PR merged is high.
 
-Instead of scrolling through hundreds of GitHub issues with no signal, AlgoMerge analyzes repositories and ranks issues based on contribution opportunity.
+Instead of scrolling through hundreds of GitHub issues with no signal, MergeHub analyzes repositories and ranks issues based on contribution opportunity.
 
 ---
 
@@ -31,7 +31,7 @@ This leads to low PR acceptance rates and discourages new contributors.
 
 ## The Solution
 
-AlgoMerge surfaces high-probability contribution opportunities by analyzing:
+MergeHub surfaces high-probability contribution opportunities by analyzing:
 
 - **Contributor competition** — how many people are already working on an issue
 - **Repository activity** — whether maintainers are actively reviewing and merging PRs
@@ -72,10 +72,10 @@ AlgoMerge surfaces high-probability contribution opportunities by analyzing:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/algomerge.git
+git clone https://github.com/yourusername/mergehub.git
 
 # Navigate into the project
-cd algomerge
+cd mergehub
 
 # Install dependencies
 npm install
@@ -114,7 +114,7 @@ Contributions are welcome. If you find a bug or have a feature request, feel fre
 
 ## Live Demo
 
-🔗 [algomerge.vercel.app](https://algomerge.vercel.app)
+🔗 [mergehub.vercel.app](https://mergehub.vercel.app)
 
 ---
 
@@ -124,4 +124,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-<p align="center">Built by <strong>Mohit</strong> · Feedback and contributions welcome</p>
+<p align="center">Built by <strong>Shyam</strong> · Feedback and contributions are mostly welcome</p>

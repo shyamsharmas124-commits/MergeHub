@@ -147,7 +147,7 @@ const LandingPage = ({ theme, toggleTheme }: { theme: ThemeMode; toggleTheme: ()
 
   const testimonials = [
     {
-      quote: 'AlgoMerge cut my issue-hunting time in half and helped me focus on work that actually gets merged.',
+      quote: 'MergeHub cut my issue-hunting time in half and helped me focus on work that actually gets merged.',
       author: 'Ari K.',
       role: 'Open Source Contributor',
       company: 'Prefix.dev',
@@ -189,7 +189,7 @@ const LandingPage = ({ theme, toggleTheme }: { theme: ThemeMode; toggleTheme: ()
       <nav className="relative flex items-center justify-between px-6 lg:px-8 py-4 border-b border-border/50">
         <div className="flex items-center gap-2">
           <span className="text-foreground"><RadarIcon /></span>
-          <span className="text-sm font-semibold tracking-tight">Algomerge</span>
+          <span className="text-sm font-semibold tracking-tight">MergeHub</span>
         </div>
         <div className="flex items-center gap-2">
           <button
@@ -241,7 +241,7 @@ const LandingPage = ({ theme, toggleTheme }: { theme: ThemeMode; toggleTheme: ()
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.55, delay: 0.12 }}
             >
-              AlgoMerge helps you decide what to contribute, when to contribute, and how to improve merge outcomes with focused data and AI guidance.
+              MergeHub helps you decide what to contribute, when to contribute, and how to improve merge outcomes with focused data and AI guidance.
             </motion.p>
 
             <motion.div
@@ -286,7 +286,7 @@ const LandingPage = ({ theme, toggleTheme }: { theme: ThemeMode; toggleTheme: ()
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.18 }}
           >
-            <div className="v-card p-5 md:p-6 bg-gradient-to-br from-[#161616] via-[#121212] to-[#0f0f0f]">
+            <div className="v-card p-5 md:p-6 bg-gradient-to-br from-[#1a243a] via-[#141b2f] to-[#0f1621]">
               <div className="flex items-center justify-between mb-4">
                 <div>
                   <div className="text-[10px] uppercase tracking-[0.14em] text-muted-foreground">Live Snapshot</div>
@@ -296,12 +296,12 @@ const LandingPage = ({ theme, toggleTheme }: { theme: ThemeMode; toggleTheme: ()
               </div>
 
               <div className="space-y-3">
-                <div className="rounded-lg border border-border bg-[#0f0f0f] p-3">
+                <div className="rounded-lg border border-border/80 bg-muted p-3">
                   <div className="flex items-center justify-between text-[11px] text-muted-foreground mb-1">
                     <span>Merge efficiency</span>
                     <span className="font-medium text-foreground">74%</span>
                   </div>
-                  <div className="h-1.5 rounded-full bg-[#1a1a1a] overflow-hidden">
+                  <div className="h-1.5 rounded-full bg-muted overflow-hidden">
                     <motion.div
                       className="h-full rounded-full bg-success"
                       initial={{ width: 0 }}
@@ -312,17 +312,17 @@ const LandingPage = ({ theme, toggleTheme }: { theme: ThemeMode; toggleTheme: ()
                 </div>
 
                 <div className="grid grid-cols-2 gap-2">
-                  <div className="rounded-lg border border-border bg-[#0f0f0f] p-3">
+                  <div className="rounded-lg border border-border/80 bg-muted p-3">
                     <div className="text-[10px] uppercase tracking-[0.12em] text-muted-foreground">Streak</div>
                     <div className="text-xl font-semibold text-foreground">12d</div>
                   </div>
-                  <div className="rounded-lg border border-border bg-[#0f0f0f] p-3">
+                  <div className="rounded-lg border border-border/80 bg-muted p-3">
                     <div className="text-[10px] uppercase tracking-[0.12em] text-muted-foreground">Open PRs</div>
                     <div className="text-xl font-semibold text-foreground">8</div>
                   </div>
                 </div>
 
-                <div className="rounded-lg border border-border bg-[#0f0f0f] p-3">
+                <div className="rounded-lg border border-border/80 bg-muted p-3">
                   <div className="text-[11px] text-muted-foreground">Top Next Action</div>
                   <div className="text-sm font-medium text-foreground mt-1">Review and update PR #38205 before peak maintainer hours.</div>
                 </div>
@@ -417,7 +417,7 @@ const LandingPage = ({ theme, toggleTheme }: { theme: ThemeMode; toggleTheme: ()
               <div className="text-[11px] uppercase tracking-[0.16em] text-muted-foreground">Testimonials</div>
               <h2 className="text-xl md:text-2xl font-semibold tracking-tight text-foreground mt-2">Built for Contributors Who Ship</h2>
             </div>
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-border bg-[#0f0f0f] text-[11px] text-muted-foreground">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-border bg-muted text-[11px] text-muted-foreground">
               <span className="text-success">★★★★★</span>
               Rated 4.9/5 by early users
             </div>
@@ -436,7 +436,7 @@ const LandingPage = ({ theme, toggleTheme }: { theme: ThemeMode; toggleTheme: ()
               <p className="text-base md:text-lg text-foreground leading-relaxed">"{testimonials[0].quote}"</p>
               <footer className="mt-5 pt-4 border-t border-border/80 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full border border-border bg-[#0f0f0f] flex items-center justify-center text-sm font-semibold text-foreground">
+                  <div className="w-10 h-10 rounded-full border border-border bg-muted flex items-center justify-center text-sm font-semibold text-foreground">
                     {testimonials[0].author.split(' ').map((p) => p[0]).join('')}
                   </div>
                   <div>
@@ -566,14 +566,14 @@ const Sidebar = ({
   theme: ThemeMode;
   toggleTheme: () => void;
 }) => (
-  <aside className={`fixed top-0 left-0 bottom-0 w-64 z-40 p-3 border-r ${theme === 'light' ? 'border-[#d4dde8] bg-[#edf2f8]' : 'border-border bg-[#090909]'}`}>
+  <aside className={`fixed top-0 left-0 bottom-0 w-64 z-40 p-3 border-r ${theme === 'light' ? 'border-[#d4dde8] bg-[#edf2f8]' : 'border-border bg-[#0a0f1b]'}`}>
     <div className={`h-full w-full rounded-xl border flex flex-col overflow-hidden ${theme === 'light' ? 'border-[#d4dde8] bg-gradient-to-b from-[#ffffff] via-[#f8fafc] to-[#f1f5f9]' : 'border-border bg-gradient-to-b from-[#141414] via-[#101010] to-[#0d0d0d]'}`}>
       <div className={`relative px-4 pt-4 pb-3 ${theme === 'light' ? 'border-b border-[#dde5ef]' : 'border-b border-border/80'}`}>
         <div className={`absolute -top-8 -right-8 w-24 h-24 rounded-full blur-2xl ${theme === 'light' ? 'bg-[#0f172a]/5' : 'bg-white/5'}`} />
         <div className="relative flex items-center gap-2.5">
           <span className="text-foreground"><RadarIcon /></span>
           <div>
-            <div className="text-sm font-semibold tracking-tight text-foreground">Algomerge</div>
+            <div className="text-sm font-semibold tracking-tight text-foreground">MergeHub</div>
             <div className="text-[10px] uppercase tracking-[0.16em] text-muted-foreground">Contributor Radar</div>
           </div>
         </div>
@@ -643,7 +643,7 @@ const Sidebar = ({
         )}
 
         {selectedRepoInfo && (
-          <div className={`mt-4 rounded-lg border p-3 ${theme === 'light' ? 'border-[#d8e0ea] bg-[#f8fafc]' : 'border-border/80 bg-[#0f0f0f]'}`}>
+          <div className={`mt-4 rounded-lg border p-3 ${theme === 'light' ? 'border-[#d8e0ea] bg-[#f8fafc]' : 'border-border/80 bg-muted'}`}>
             <div className="text-[10px] uppercase tracking-[0.16em] text-muted-foreground mb-1">Active Repo</div>
             <button
               onClick={() => setPage('discover')}
@@ -657,7 +657,7 @@ const Sidebar = ({
       </nav>
 
       <div className="p-3 border-t border-border/80">
-        <div className={`rounded-lg border p-3 ${theme === 'light' ? 'border-[#d8e0ea] bg-[#f8fafc]' : 'border-border bg-[#0f0f0f]'}`}>
+        <div className={`rounded-lg border p-3 ${theme === 'light' ? 'border-[#d8e0ea] bg-[#f8fafc]' : 'border-border bg-muted'}`}>
           <button
             onClick={toggleTheme}
             className={`w-full mb-2.5 flex items-center justify-center gap-2 px-2.5 py-2 rounded-md text-[12px] font-medium transition-all duration-150 border ${theme === 'light' ? 'text-[#4b5563] hover:text-[#111827] hover:bg-[#e9eef5] border-[#cdd6e3]' : 'text-muted-foreground hover:text-foreground hover:bg-white/[0.03] border border-border/70'}`}
@@ -904,12 +904,12 @@ export default function App() {
       <div className="md:hidden flex items-center justify-between px-4 py-3 border-b border-border bg-black sticky top-0 z-40">
         <div className="flex items-center gap-2">
           <span className="text-foreground"><RadarIcon /></span>
-          <span className="text-sm font-semibold tracking-tight">Algomerge</span>
+          <span className="text-sm font-semibold tracking-tight">MergeHub</span>
         </div>
         <div className="flex items-center gap-2">
           <button
             onClick={toggleTheme}
-            className="w-7 h-7 rounded-md border border-border bg-[#121212] text-muted-foreground hover:text-foreground flex items-center justify-center"
+            className="w-7 h-7 rounded-md border border-border bg-secondary text-muted-foreground hover:text-accent transition-colors flex items-center justify-center"
             title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
           >
             <ThemeIcon theme={theme} />
@@ -931,7 +931,7 @@ export default function App() {
             onClick={() => setMobileProfileOpen(false)}
           >
             <motion.div
-              className={`absolute top-0 right-0 w-72 h-full border-l flex flex-col ${theme === 'light' ? 'bg-[#f8fafc] border-[#d4dde8]' : 'bg-[#0d0d0d] border-border'}`}
+              className={`absolute top-0 right-0 w-72 h-full border-l flex flex-col ${theme === 'light' ? 'bg-[#f8fafc] border-[#d4dde8]' : 'bg-[#0a0f1b] border-border'}`}
               initial={{ x: '100%' }}
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
@@ -1018,7 +1018,7 @@ export default function App() {
           <div className="mb-4 flex items-center justify-end gap-2">
             <button
               onClick={toggleTheme}
-              className="text-xs px-3 py-1.5 rounded-md border border-border bg-[#121212] text-muted-foreground hover:text-foreground hover:border-[#3a3a3a] transition-colors inline-flex items-center gap-1.5"
+              className="text-xs px-3 py-1.5 rounded-md border border-border bg-secondary text-muted-foreground hover:text-accent hover:border-accent transition-colors inline-flex items-center gap-1.5"
               title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
             >
               <ThemeIcon theme={theme} />
@@ -1026,7 +1026,7 @@ export default function App() {
             </button>
             <button
               onClick={() => setCommandOpen(true)}
-              className="text-xs px-3 py-1.5 rounded-md border border-border bg-[#121212] text-muted-foreground hover:text-foreground hover:border-[#3a3a3a] transition-colors"
+              className="text-xs px-3 py-1.5 rounded-md border border-border bg-secondary text-muted-foreground hover:text-accent hover:border-accent transition-colors"
               title="Open command menu"
             >
               Quick Actions  Ctrl/Cmd+K
